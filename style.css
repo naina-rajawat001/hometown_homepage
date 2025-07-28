@@ -9,23 +9,18 @@
     align-items: center;
 }
 
-body {
-    display: flex;
-    justify-content: center;
 
-}
 /* hero-banner */
 
 section {
-     width: 750px;
+     width: 800px;
     height: 450px;
+    margin: 0 auto;
 }
 
 
 .hero-banner {
     background-image: url("/images/main-img.avif");
-    width: 800px;
-    height: 450px;
     flex-direction: column;
     gap: 15px;
 }
@@ -49,4 +44,16 @@ p {
     text-align: center;
     padding: 5px 10px;
     border-radius:20px;
+}
+
+/* activities banner */
+
+.activity-banner {
+    background-color: #55993e;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+h2 {
+    
 }
