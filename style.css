@@ -1,6 +1,8 @@
 * {
     margin: 0;
     padding: 0;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .flex {
@@ -14,7 +16,7 @@
 
 section {
      width: 800px;
-    height: 450px;
+    height: 500px;
     margin: 0 auto;
 }
 
@@ -35,7 +37,7 @@ h1 {
 
 }
 
-p {
+.hero-text{
     background-color: #457B9D;
     color: aliceblue;
     width: 750px;
@@ -49,11 +51,73 @@ p {
 /* activities banner */
 
 .activity-banner {
-    background-color: #55993e;
+    background-color: #d0dfcb;
     flex-direction: column;
-    justify-content: space-between;
+    gap: 20px;
 }
 
-h2 {
-    
+
+figure{
+    padding: 20px 40px;
+    flex-direction: column;
+    gap: 20px;
 }
+
+figure h3 {
+    height: 30px;
+    width: 200px;
+}
+
+figure p {
+    height: 55px;
+    width: 200px;
+}
+
+.activities-img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+  
+}
+
+.guide-card {
+    width: 450px;
+    height: 300px;
+    background-color: #A8DADC;
+    box-shadow: 0 6px 0 #1d3557;
+    border-radius: 10px;
+    justify-content: space-evenly;
+}
+
+
+.guide-img {
+    height: 250px;
+    width: 200px;
+    border-radius: 10px;
+    background-color: #1d3557;
+}
+
+
+address {
+    flex-direction: column;
+    gap: 20px;
+    color: #1d3557;
+}
+
+address h2 {
+    font-weight: 700;
+    font-style: normal;
+}
+
+
+address p {
+    width: 190px;
+}
+
+.name{
+    font-weight: 700;
+    font-size: 18px;
+    font-style: normal;
+}
+
+
