@@ -50,7 +50,7 @@ h1 {
 
 /* activities banner */
 
-.activity-banner {
+.places-banner {
     background-color: #d0dfcb;
     flex-direction: column;
     gap: 20px;
@@ -73,13 +73,33 @@ figure p {
     width: 200px;
 }
 
-.activities-img{
+.places-img{
     width: 150px;
     height: 150px;
     border-radius: 50%;
   
 }
 
+/* section-3 */
+
+.activities-banner {
+    background-color: #457B9D;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.activity-img {
+    width: 200px;
+    height: 140px;
+    border-radius: 5px;
+}
+
+/* guide-card section */
+
+
+.guide {
+    background-color: rgb(243, 239, 235);
+}
 .guide-card {
     width: 450px;
     height: 300px;
